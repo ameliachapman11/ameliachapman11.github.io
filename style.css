@@ -1,0 +1,39 @@
+body{
+    color: #4B5BB3;
+    background-color: #cde2f6;
+    font-family: "Inter", sans-serif;;
+}
+
+h1{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 160px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+h1:hover{
+    font-style: italic; 
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #4B5BB3;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+p{
+    font-size: 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
