@@ -1,4 +1,5 @@
 # ameliachapman11.github.io
-Creating a personal website to keep track of projects I create and my contact information
+My personal website, including an about me, digital scrapbook, projects, and contact info sections.
 
-Following along with the tutorials from the University of Edinburgh InfPals sessions.
+**Sources**
+* Map SVG: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Simplified_World_Map.svg)

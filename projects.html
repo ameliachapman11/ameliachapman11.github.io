@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amelia Chapman</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="css/style.css">
     <script src = "main.js" defer></script>
     
@@ -18,24 +17,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <nav id = "navbar"></nav>
+    <nav id="navbar"></nav>
+
     <main>
-        <h1 id="name">AMELIA<br>CHAPMAN</h1>
-        <p id="intro" style="display: none;">
-            Hi, my name is Amelia. Welcome to my website. I am a second year computer science student at the University of Edinburgh interested in natural language processing, data science, and using artificial intelligence for social good. I am also a cellist in the Edinburgh University Symphony Orchestra, tennis player, and yoga enthusiast. I have recently started learning to tango! Feel free to check out my digital scrapbook or contact me if you are interested in collaborating on a project or just want to chat about anything.
-        </p>
+        <p>
+            This page will contain the projects I have completed in the past, both for my degree and independently. It is currently a work in progress.
+        <p>
     </main>
-
-    <script src="main.js"></script>
-
-    <!-- Load the navbar from an external file -->
+    
     <script>
         fetch('/navbar.html')
         .then(res => res.text())
         .then(html => document.getElementById('navbar').innerHTML = html);
     </script>
 </body>
-
 </html>
